@@ -1,0 +1,99 @@
+
+/* personalized navbar */
+body #header-wrapper {
+  font-size: 13px;
+  border-radius:0;
+  background:#fff;
+  -webkit-box-shadow: 0 6px 6px -5px #ccc;
+     -moz-box-shadow: 0 6px 6px -5px #ccc;
+      -ms-box-shadow: 0 6px 6px -5px #ccc;
+   -khtml-box-shadow: 0 6px 6px -5px #ccc;
+       -o-box-shadow: 0 6px 6px -5px #ccc;
+     -moz-box-shadow: 0 6px 6px -5px #ccc;
+          box-shadow: 0 6px 6px -5px #ccc;
+  border-bottom:1px solid #bbb;
+  margin-bottom:20px;
+}
+
+body .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+body .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+.navbar {
+    max-width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    border:0;
+    background-color:white;
+    border-raidus:0;
+}
+/* body and footer */
+body #app-content {
+	min-height:550px;
+    background-color:white;
+    border-radius:5px;
+    padding:40px 50px;
+}
+
+body {
+	background-color:rgb(235, 235, 235);
+}
+body #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+	/*background-color:whitesmoke;*/
+		/*padding-top:41px;*/
+}
+#appBackground {
+    /*background-size:100%; */
+    background: url('../../images/phylo-bg-4.svg') top left repeat;
+    height:100%;
+    width:100%;
+    position:fixed;
+    opacity: 0.05;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+footer {
+	/*background-color:#262C36;*/
+	position:relative;
+	width:100%;
+	/*box-shadow: black 0px 10px 10px -10px inset;
+	-moz-box-shadow:black 0px 10px 10px -10px inset;
+	-ms-box-shadow:black 0px 10px 10px -10px inset;
+	-khtml-box-shadow:black 0px 10px 10px -10px inset;
+	-o-box-shadow:black 0px 10px 10px -10px inset;
+	-webkit-box-shadow: black 0px 10px 10px -10px inset;*/
+}
+
+footer h4 {
+	text-shadow:rgba(102, 120, 138, 0.45) 0px 1px 0px;
+	color: #111;
+	margin-left:100px;
+	padding-top:30px;
+	margin-top:0px;
+}
+
+footer h4 span.copyright {
+	color:rgba(148, 163, 179, 0.3);
+	font-size:11px;
+	text-shadow:none;
+}
+
+/* end of body css */
